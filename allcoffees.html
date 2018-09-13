@@ -3,7 +3,9 @@
 
 <head>
     <title>
+        Welcome to Tony's Coffee store
     </title>
+    <link rel="stylesheet" href="Styles/Layout.css"/>
 </head>
 
 <body>
@@ -29,9 +31,21 @@
                     <span class="productarticlewidename">Coffee 1</span>
                 </header>
                 <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vehicula nibh, at blandit turpis ultricies vel. Phasellus tristique, arcu vitae ullamcorper cursus, ipsum nisi rutrum augue, quis consectetur enim libero ac ante. </p>
-                <p class="productarticlewideprice">€10</p>
+                <p class="productarticlewideprice">€13</p>
             </div>
-            <article class="productarticlewide" id="coffee-1" data-price="10.00">
+        </article>
+            <article class="productarticlewide" id="coffee-2" data-price="10.00">
+            <img id="coffee1" class="productarticlewidethumbnail" src="Images/coffee/coffee1.jpg" />
+            <div class="productarticlewidecontent">
+                <header>
+                    <span class="productarticlewidename">Coffee 1</span>
+                </header>
+                <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vehicula nibh, at blandit turpis ultricies vel. Phasellus tristique, arcu vitae ullamcorper cursus, ipsum nisi rutrum augue, quis consectetur enim libero ac ante. </p>
+                <p class="productarticlewideprice">€12</p>
+
+            </div>
+        </article>
+            <article class="productarticlewide" id="coffee-3" data-price="10.00">
             <img id="coffee1" class="productarticlewidethumbnail" src="Images/coffee/coffee1.jpg" />
             <div class="productarticlewidecontent">
                 <header>
@@ -41,20 +55,14 @@
                 <p class="productarticlewideprice">€10</p>
 
             </div>
-        </article>
-            <article class="productarticlewide" id="coffee-1" data-price="10.00">
-            <img id="coffee1" class="productarticlewidethumbnail" src="Images/coffee/coffee1.jpg" />
-            <div class="productarticlewidecontent">
-                <header>
-                    <span class="productarticlewidename">Coffee 1</span>
-                </header>
-                <p class="productarticlewidedescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vehicula nibh, at blandit turpis ultricies vel. Phasellus tristique, arcu vitae ullamcorper cursus, ipsum nisi rutrum augue, quis consectetur enim libero ac ante. </p>
-                <p class="productarticlewideprice">€10</p>
-
-            </div>
-        </article>
-        </article>
+            </article>
     </section>
+    
+    <div id="shoppingcart">
+        <header class="blockheader"><span>Shopping cart</span></header>
+        <ul></ul>
+    </div>
+
 
    
     <footer>
@@ -62,6 +70,12 @@
         <p class="textcontent">All site contents is copyrighted <a class="mainlink" href="#"></a>
             <p class="smalltext">This page was generated on <time>02:30:04.123</time>.</p>
     </footer>
+
+    
+    <script src="scripts/dragAndDrop.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", DHandlers, false);
+    </script>
 </body>
 
 </html>
