@@ -81,6 +81,11 @@ nav {
         width: 60px;
     }
 
+#map {
+    position: relative;
+    width: 700px;
+    height: 300px;
+}
 #headername {
     font-family: newHeaderFont;
     font-size: 40px;
